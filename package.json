@@ -9,7 +9,7 @@
     "test": "./node_modules/karma/bin/karma start"
   },
   "author": "Daniel Fernandez @dfernandeza",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.1.0",
     "babel-preset-es2015": "^6.1.18",

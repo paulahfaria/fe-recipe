@@ -1,6 +1,7 @@
 # A delicious recipe for Front End developers
+#### Built with ES6+, Browserify, Babel, Gulp, PostCss, Karma, Jasmine
 
-In this repository you will find a ready to use development workflow with the following capabilities:
+A ready to use development workflow with the following capabilities:
 
 - Dependency management: Browserify
 - Code quality checking: Gulp (gulp-eslint)
@@ -12,3 +13,30 @@ In this repository you will find a ready to use development workflow with the fo
 - Watch mode: watchify which is a Browserify plugin that provides watch mode for Browserify builds.
 - Run unit tests: karma-browserify, browserify integration for Karma 
 
+
+## Getting Started
+
+* Clone the repository:
+```bash
+git clone https://github.com/dfernandeza/fe-recipe
+cd fe-recipe
+```
+
+* Install all the dependencies:
+```bash
+npm install
+```
+
+* Start the project:
+```bash
+npm start
+```
+
+* Start hacking
+
+
+#### Testing 
+Running `npm test` will run the unit tests with Karma.
+
+## License
+MIT
