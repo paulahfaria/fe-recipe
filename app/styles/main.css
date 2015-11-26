@@ -1,0 +1,9 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/* Base imports */ 
+@import './base/variables';
+
+body {
+	box-sizing: border-box;
+	color: $base-font-color;
+}
