@@ -3,19 +3,19 @@
 module.exports = function(karma) {
   karma.set({
 
-    frameworks: [ 'jasmine', 'browserify' ],
+    frameworks: ['jasmine', 'browserify'],
 
     files: [
       './app/src/**/*-spec.js'
     ],
 
-    reporters: [ 'dots' ],
+    reporters: ['dots'],
 
     preprocessors: {
-      './app/src/**/*.js': [ 'browserify' ]
+      './app/src/**/*.js': ['browserify']
     },
 
-    browsers: [ 'PhantomJS' ],
+    browsers: ['PhantomJS'],
 
     logLevel: 'LOG_DEBUG',
 
