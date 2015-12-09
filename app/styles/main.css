@@ -3,7 +3,10 @@
 /* Base imports */ 
 @import './base/variables';
 
+html {
+  box-sizing: border-box;
+}
+
 body {
-	box-sizing: border-box;
 	color: $base-font-color;
 }

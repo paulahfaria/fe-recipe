@@ -45,7 +45,7 @@ Running `npm test` will run the unit tests with Karma.
 ## TODO:
 
 - Add Istanbul?
-- How to deal with the DOM in the JS test (either phantom or jsdom)
+- Move to jsdom?
 
 ## License
 MIT
